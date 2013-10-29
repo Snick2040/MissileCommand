@@ -17,6 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [self performSegueWithIdentifier:@"segueToGame" sender:self];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -24,6 +25,12 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)tapToPlay:(id)sender {
+    
+    [self performSegueWithIdentifier:@"segueToGame" sender:self];
+    
 }
 
 @end

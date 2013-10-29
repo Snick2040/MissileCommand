@@ -22,6 +22,15 @@
 		01CB19F61819E975004E6F14 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01CB19D51819E975004E6F14 /* UIKit.framework */; };
 		01CB19FE1819E975004E6F14 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01CB19FC1819E975004E6F14 /* InfoPlist.strings */; };
 		01CB1A001819E975004E6F14 /* MissileCommandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01CB19FF1819E975004E6F14 /* MissileCommandTests.m */; };
+		01CB1A0B1819EBBD004E6F14 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01CB1A0A1819EBBD004E6F14 /* GameViewController.m */; };
+		01CB1A0E1819F060004E6F14 /* AsteroidView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01CB1A0D1819F060004E6F14 /* AsteroidView.m */; };
+		01CB1A111819FA08004E6F14 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 01CB1A101819FA08004E6F14 /* Utility.m */; };
+		01CB1A14181AEA6C004E6F14 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01CB1A13181AEA6C004E6F14 /* BaseView.m */; };
+		01CB1A16181C3F60004E6F14 /* asteroid.png in Resources */ = {isa = PBXBuildFile; fileRef = 01CB1A15181C3F60004E6F14 /* asteroid.png */; };
+		01CB1A19181C4268004E6F14 /* MCSpriteLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 01CB1A18181C4268004E6F14 /* MCSpriteLayer.m */; };
+		01CB1A1F182037A6004E6F14 /* MissileView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01CB1A1E182037A6004E6F14 /* MissileView.m */; };
+		01CB1A21182046F3004E6F14 /* MissileTurrent.png in Resources */ = {isa = PBXBuildFile; fileRef = 01CB1A20182046F3004E6F14 /* MissileTurrent.png */; };
+		01CB1A2418204F34004E6F14 /* ScoreTWC.m in Sources */ = {isa = PBXBuildFile; fileRef = 01CB1A2318204F34004E6F14 /* ScoreTWC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +64,22 @@
 		01CB19FB1819E975004E6F14 /* MissileCommandTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MissileCommandTests-Info.plist"; sourceTree = "<group>"; };
 		01CB19FD1819E975004E6F14 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		01CB19FF1819E975004E6F14 /* MissileCommandTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MissileCommandTests.m; sourceTree = "<group>"; };
+		01CB1A091819EBBD004E6F14 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		01CB1A0A1819EBBD004E6F14 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		01CB1A0C1819F060004E6F14 /* AsteroidView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsteroidView.h; sourceTree = "<group>"; };
+		01CB1A0D1819F060004E6F14 /* AsteroidView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsteroidView.m; sourceTree = "<group>"; };
+		01CB1A0F1819FA08004E6F14 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		01CB1A101819FA08004E6F14 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		01CB1A12181AEA6C004E6F14 /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
+		01CB1A13181AEA6C004E6F14 /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
+		01CB1A15181C3F60004E6F14 /* asteroid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asteroid.png; sourceTree = "<group>"; };
+		01CB1A17181C4268004E6F14 /* MCSpriteLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSpriteLayer.h; sourceTree = "<group>"; };
+		01CB1A18181C4268004E6F14 /* MCSpriteLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCSpriteLayer.m; sourceTree = "<group>"; };
+		01CB1A1D182037A6004E6F14 /* MissileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MissileView.h; path = ../MissileView.h; sourceTree = "<group>"; };
+		01CB1A1E182037A6004E6F14 /* MissileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MissileView.m; path = ../MissileView.m; sourceTree = "<group>"; };
+		01CB1A20182046F3004E6F14 /* MissileTurrent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MissileTurrent.png; sourceTree = "<group>"; };
+		01CB1A2218204F34004E6F14 /* ScoreTWC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreTWC.h; sourceTree = "<group>"; };
+		01CB1A2318204F34004E6F14 /* ScoreTWC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreTWC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +145,16 @@
 				01CB19E61819E975004E6F14 /* Main_iPad.storyboard */,
 				01CB19E91819E975004E6F14 /* ViewController.h */,
 				01CB19EA1819E975004E6F14 /* ViewController.m */,
+				01CB1A091819EBBD004E6F14 /* GameViewController.h */,
+				01CB1A0A1819EBBD004E6F14 /* GameViewController.m */,
+				01CB1A0C1819F060004E6F14 /* AsteroidView.h */,
+				01CB1A0D1819F060004E6F14 /* AsteroidView.m */,
+				01CB1A12181AEA6C004E6F14 /* BaseView.h */,
+				01CB1A13181AEA6C004E6F14 /* BaseView.m */,
+				01CB1A1D182037A6004E6F14 /* MissileView.h */,
+				01CB1A1E182037A6004E6F14 /* MissileView.m */,
+				01CB1A2218204F34004E6F14 /* ScoreTWC.h */,
+				01CB1A2318204F34004E6F14 /* ScoreTWC.m */,
 				01CB19EC1819E975004E6F14 /* Images.xcassets */,
 				01CB19D81819E975004E6F14 /* Supporting Files */,
 			);
@@ -129,6 +164,12 @@
 		01CB19D81819E975004E6F14 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				01CB1A20182046F3004E6F14 /* MissileTurrent.png */,
+				01CB1A17181C4268004E6F14 /* MCSpriteLayer.h */,
+				01CB1A18181C4268004E6F14 /* MCSpriteLayer.m */,
+				01CB1A15181C3F60004E6F14 /* asteroid.png */,
+				01CB1A0F1819FA08004E6F14 /* Utility.h */,
+				01CB1A101819FA08004E6F14 /* Utility.m */,
 				01CB19D91819E975004E6F14 /* MissileCommand-Info.plist */,
 				01CB19DA1819E975004E6F14 /* InfoPlist.strings */,
 				01CB19DD1819E975004E6F14 /* main.m */,
@@ -232,8 +273,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				01CB19E81819E975004E6F14 /* Main_iPad.storyboard in Resources */,
+				01CB1A21182046F3004E6F14 /* MissileTurrent.png in Resources */,
 				01CB19ED1819E975004E6F14 /* Images.xcassets in Resources */,
 				01CB19E51819E975004E6F14 /* Main_iPhone.storyboard in Resources */,
+				01CB1A16181C3F60004E6F14 /* asteroid.png in Resources */,
 				01CB19DC1819E975004E6F14 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,9 +296,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01CB1A0B1819EBBD004E6F14 /* GameViewController.m in Sources */,
+				01CB1A1F182037A6004E6F14 /* MissileView.m in Sources */,
 				01CB19EB1819E975004E6F14 /* ViewController.m in Sources */,
+				01CB1A14181AEA6C004E6F14 /* BaseView.m in Sources */,
 				01CB19E21819E975004E6F14 /* AppDelegate.m in Sources */,
+				01CB1A2418204F34004E6F14 /* ScoreTWC.m in Sources */,
 				01CB19DE1819E975004E6F14 /* main.m in Sources */,
+				01CB1A111819FA08004E6F14 /* Utility.m in Sources */,
+				01CB1A19181C4268004E6F14 /* MCSpriteLayer.m in Sources */,
+				01CB1A0E1819F060004E6F14 /* AsteroidView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
