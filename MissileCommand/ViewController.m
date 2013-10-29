@@ -17,7 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [self performSegueWithIdentifier:@"segueToGame" sender:self];
+    //[self performSegueWithIdentifier:@"segueToGame" sender:self];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

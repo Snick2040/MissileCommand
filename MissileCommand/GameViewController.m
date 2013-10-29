@@ -68,9 +68,9 @@
     scoreLabel.font = [UIFont systemFontOfSize:10];
     [gameBoard addSubview:scoreLabel];
 
-    for (int i = 0; i < 6; i++) {[self spawnAsteroid];}
+    for (int i = 0; i < 2; i++) {[self spawnAsteroid];}
     
-    spawnAsteroid = [NSTimer scheduledTimerWithTimeInterval:1.0f/2.0f
+    spawnAsteroid = [NSTimer scheduledTimerWithTimeInterval:2.0f/2.0f
                                                 target:self
                                               selector:@selector(spawnAsteroid)
                                               userInfo:nil
@@ -281,7 +281,7 @@
                         [asteroidArray removeObject:thisAsteroid];
                         [thisAsteroid removeFromSuperview];
                         
-                        thisBase.health = thisBase.health - 100;
+                        thisBase.health = thisBase.health - 10;
                         //NSLog(@"base: %i, health: %i", baseIndex, thisBase.health);
                         if (thisBase.health <= 0) {
                             NSLog(@"base: %i, health: %i", baseIndex, thisBase.health);
